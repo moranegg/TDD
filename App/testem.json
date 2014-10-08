@@ -1,13 +1,17 @@
 {
-  "framework": "mocha",
-  "src_files": [
-    "lib/jquery-2.0.3.min.js",
-    "lib/underscore-min.js",
-    "lib/backbone-min.js",
-    "src/*.js",
-    "lib/chai.js",
-    "lib/sinon-chai.js",
-    "lib/sinon.js",
-    "test/*.js"
-  ]
+    "framework": "mocha",
+    "src_files": [
+        "lib/jquery-2.0.3.min.js",
+        "lib/underscore-min.js",
+        "lib/backbone-min.js",
+        "src/*.js",
+        "lib/chai.js",
+        "lib/sinon-chai.js",
+        "lib/sinon.js",
+        "test/*.js"
+    ],
+    "launch-in-dev": [ 
+        "chrome"
+
+    ]
 }
